@@ -1,0 +1,23 @@
+[user]
+	name  = Igor Baranovskiy
+	email = igor.baranovskiy.dev@gmail.com
+[core]
+	eol = lf
+	autocrlf = false
+[init]
+	defaultBranch = main
+[alias]
+	s    = status
+	ss   = status --short
+	a    = add
+	al   = add .
+	r    = restore
+	rl   = restore .
+	rs   = restore --staged
+	rsl  = restore --staged .
+	cm   = commit -m
+	ca   = commit --amend
+	can  = commit --amend --no-edit
+	co   = checkout
+	cob  = checkout -b
+	logo = log --oneline
