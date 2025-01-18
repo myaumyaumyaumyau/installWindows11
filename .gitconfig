@@ -11,6 +11,8 @@
 	ss   = status --short
 	a    = add
 	al   = add .
+	p    = push
+	pf   = push --force
 	r    = restore
 	rl   = restore .
 	rs   = restore --staged
